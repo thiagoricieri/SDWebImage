@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.framework = 'ImageIO'
+  s.tvos.deployment_target = '9.0'
   
   s.default_subspec = 'Core'
 
